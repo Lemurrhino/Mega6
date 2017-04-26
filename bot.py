@@ -1,9 +1,10 @@
+
 import discord
 from discord.ext import commands
 import logging
-import ConfigParser
+import configparser
 
-configParser = ConfigParser.RawConfigParser()
+configParser = configparser.RawConfigParser()
 configFilePath = r'c:\abc.txt'
 configParser.read(configFilePath)
 

@@ -1,0 +1,4 @@
+PyNaCl
+Discord.py
+Logging
+configParser
